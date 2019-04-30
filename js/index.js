@@ -7,7 +7,7 @@ $(function(){
     //$('#console-box').append('<br>class:'+$(this).attr("class")+'|value: '+$(this).text()+'.');
     $(this).toggleClass('selected').siblings().removeClass('selected');
 ; 
-    $('#console-box').append('<br>{"Selection" : "'+$(this).text()+"}');
+    $('#console-box').append('<br>{"Selection" : "'+$(this).text()+'"}');
   });
   
 });
